@@ -9,9 +9,28 @@
 		"server": "cd server && yarn start"
 	},
 	"dependencies": {
+		"@webcomponents/shadydom": "^1.8.0",
+		"core-js": "^3.11.2",
 		"next": "10.2.0",
+		"next-compose-plugins": "^2.2.1",
+		"next-transpile-modules": "^7.0.0",
 		"react": "17.0.2",
+		"react-app-polyfill": "^2.0.0",
 		"react-dom": "17.0.2",
+		"regenerator-runtime": "^0.13.7",
 		"socket.io-client": "^4.0.1"
+	},
+	"browserslist": {
+		"production": [
+			">0.2%",
+			"not dead",
+			"not op_mini all"
+		],
+		"development": [
+			">0.2%",
+			"last 1 chrome version",
+			"last 1 firefox version",
+			"last 1 safari version"
+		]
 	}
 }
